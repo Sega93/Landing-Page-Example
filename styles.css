@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Georgia;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background: white;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#logo {
+  max-width: 250px;
+  height: auto;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#nav-bar {
+  display: flex;
+  align-items: center;
+  width: 50vw;
+}
+
+
+
+.nav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 50vw;
+}
+
+main {
+  margin-top: 85px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: ivory;
+}
+
+video {
+  width: 50%;
+  margin: 7.5vh
+}
+
+form {
+  width: 40%;
+  margin: 1vh auto 7.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 75px;
+}
+
+#email {
+  width: 200px;
+  padding: 10px;
+}
+
+#submit {
+  border-radius: 5px 5px 5px 5px;
+  max-width: fit-content;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+features {
+  width: 100%;
+  margin: 7.5vh auto 7.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+features > div {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+}
+
+#icon {
+  margin: auto;
+  padding: 20px;
+}
+
+pricing {
+  width: 60%;
+  margin: 7.5vh auto 15vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#option {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 6px;
+  box-shadow: 5px 5px 1px 0.1px;
+  padding: 1vw;
+  background: #cce5ff;
+}
+
+.price {
+  list-style: none;
+}
+
+footer {
+  margin: 0 auto;
+  width: 70%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  background: lightgrey;
+}
+
+.footy {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.footy > li {
+  padding: 5px 15px 5px 15px;
+}
+
+copyright {
+  padding: 5px 15px 5px 15px;
+}
